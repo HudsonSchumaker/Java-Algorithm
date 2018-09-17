@@ -9,8 +9,7 @@ public class FactorialEx2 {
         int n = 5, i = 1;
         long f = 1;
         while(i <= n){
-            f *= i;
-            i++;
+            f *= i++;
         }
         System.out.printf("Factorial of %d = %d\n",n, f);
     }
