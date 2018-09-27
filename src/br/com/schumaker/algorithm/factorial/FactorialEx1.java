@@ -1,4 +1,4 @@
-package bt.com.schumaker.algorithm.factorial;
+package br.com.schumaker.algorithm.factorial;
 
 import java.math.BigInteger;
 

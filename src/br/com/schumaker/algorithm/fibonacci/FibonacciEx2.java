@@ -1,4 +1,4 @@
-package bt.com.schumaker.algorithm.fibonacci;
+package br.com.schumaker.algorithm.fibonacci;
 
 /**
  *

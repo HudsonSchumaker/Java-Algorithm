@@ -1,4 +1,4 @@
-package bt.com.schumaker.algorithm.letter;
+package br.com.schumaker.algorithm.letter;
 
 /**
  *
