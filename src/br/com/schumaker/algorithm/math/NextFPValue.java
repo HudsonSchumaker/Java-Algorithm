@@ -1,4 +1,3 @@
-
 package br.com.schumaker.algorithm.math;
 
 /**
