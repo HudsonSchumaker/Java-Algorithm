@@ -2,7 +2,7 @@ package br.com.schumaker.algorithm.fibonacci;
 
 /**
  *
- * @author hudsonschumaker
+ * @author hudson schumaker
  */
 public class FibonacciEx1 {
 
