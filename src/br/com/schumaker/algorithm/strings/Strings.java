@@ -24,7 +24,6 @@ public final class Strings {
         int right = str.length() - 1;
 
         while (right > left) {
-
             if (str.charAt(left) != str.charAt(right)) {
                 return false;
             }
@@ -37,7 +36,6 @@ public final class Strings {
     }
 
     public static boolean isPalindromeV2(String str) {
-
         if (str == null || str.isBlank()) {
             // or throw IllegalArgumentException
             return false;
