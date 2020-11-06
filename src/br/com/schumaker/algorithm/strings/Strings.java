@@ -62,7 +62,6 @@ public final class Strings {
     }
 
     public static boolean isPalindromeV4(String str) {
-
         if (str == null || str.isBlank()) {
             // or throw IllegalArgumentException
             return false;
