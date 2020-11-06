@@ -1,3 +1,10 @@
+
+package br.com.schumaker.algorithm.math;
+
+/**
+ *
+ * @author hudson schumaker
+ */
 public class NextFPValue {
 
     public static void main(String[] args) {
