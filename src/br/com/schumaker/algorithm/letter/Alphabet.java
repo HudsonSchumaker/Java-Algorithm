@@ -2,7 +2,7 @@ package br.com.schumaker.algorithm.letter;
 
 /**
  *
- * @author hudsonschumaker
+ * @author hudson schumaker
  */
 public class Alphabet {
     public static void main(String[] args) {
