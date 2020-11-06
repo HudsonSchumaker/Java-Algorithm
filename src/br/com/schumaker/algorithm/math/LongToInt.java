@@ -1,5 +1,9 @@
+package br.com.schumaker.algorithm.math;
 
-
+/**
+ *
+ * @author hudson schumaker
+ */
 public class LongToInt {
 
     public static void main(String[] args) {
