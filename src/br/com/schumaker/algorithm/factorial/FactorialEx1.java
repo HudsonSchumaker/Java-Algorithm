@@ -4,7 +4,7 @@ import java.math.BigInteger;
 
 /**
  *
- * @author hudsonschumaker
+ * @author hudson schumaker
  */
 public class FactorialEx1 {
     public static void main(String[] args) {
