@@ -3,7 +3,6 @@ package br.com.schumaker.algorithm.math;
 
 import java.util.stream.IntStream;
 
-
 /**
  *
  * @author hudson schumaker
