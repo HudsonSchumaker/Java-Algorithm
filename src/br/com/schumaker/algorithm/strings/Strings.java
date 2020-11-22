@@ -12,6 +12,14 @@ public final class Strings {
     private Strings() {
         throw new AssertionError("Cannot be instantiated");
     }
+    
+    public static String removeWhiteSpaces(String str) {
+        if (str == null || str.isEmpty()) {
+            // or throw IllegalArgumentException
+            return "";
+        }
+        return str.replaceAll("\\s", "");
+    }
 
     public static boolean isPalindromeV1(String str) {
         if (str == null || str.isBlank()) {
