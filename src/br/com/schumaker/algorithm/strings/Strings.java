@@ -8,9 +8,26 @@ import java.util.stream.IntStream;
  * @author hudson schumaker
  */
 public final class Strings {
+    
+    public enum Sort {
+        ASC, DESC
+    }
 
     private Strings() {
         throw new AssertionError("Cannot be instantiated");
+    }
+    
+    public static void sortArrayByLength(String[] strs, Sort direction) {
+        if (strs == null || direction == null || strs.length == 0) {
+            // or throw IllegalArgumentException
+            return;
+        }
+
+        if (direction.equals(Sort.ASC)) {
+            Arrays.sort(strs, Comparator.comparingInt(String::length));
+        } else {
+            Arrays.sort(strs, Comparator.comparingInt(String::length).reversed());
+        }
     }
     
     public static String removeWhiteSpaces(String str) {
