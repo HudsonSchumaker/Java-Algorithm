@@ -2,7 +2,7 @@ package br.com.schumaker.algorithm.factorial;
 
 /**
  *
- * @author hudson schumaker
+ * @author Hudson Schumaker
  */
 public class FactorialEx2 {
     public static void main(String[] args) {
